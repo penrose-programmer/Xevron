@@ -1,3 +1,1 @@
-# Xevron
-
-Xevron is currently in Pre-Alpha. Expect updates coming soon! 🚀
+<h1 align="center"> Xevron </h1>

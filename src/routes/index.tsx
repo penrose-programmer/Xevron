@@ -13,11 +13,11 @@ function App() {
         <Flex
           direction="row"
           fontWeight="bold"
-          fontSize="6xl"
-          gap="4"
+          fontSize="9xl"
+          gap="8"
           margin="4"
         >
-          Connect information with
+          Plan with
           <Flex
             backgroundGradient="linear-gradient(to right, #38b2ac, #4299e1, #9f7aea)"
             backgroundClip="text"
