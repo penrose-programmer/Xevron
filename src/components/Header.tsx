@@ -12,6 +12,10 @@ export default function Header() {
       fontSize="xl"
       align="center"
       flexDir="row"
+      position="sticky"
+      top="4"
+      zIndex="1000"
+      bgColor="black"
     >
       <Link to="/">
         <Flex flexDir="row" align="center" gap="2">
@@ -26,11 +30,13 @@ export default function Header() {
       <Spacer />
       <Link to="/">
         <Button fontFamily="mono" colorPalette="purple">
-          Join the Waitlist
+          <a href="https://getwaitlist.com/waitlist/30231" target="_blank">
+            Join the Waitlist
+          </a>
         </Button>
       </Link>
-      <a href="/">
-        <IconButton variant="subtle" size="lg">
+      <a href="https://github.com/penrose-programmer/xevron" target="_blank">
+        <IconButton aria-label="github" variant="subtle" size="lg">
           <FaGithub />
         </IconButton>
       </a>
