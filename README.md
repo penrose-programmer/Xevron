@@ -8,4 +8,4 @@
 
 <br />
 
-[Xevron](example.com) is a **task management** system designed for **students**.
+<h4 align="center">Xevron is still in pre-alpha. <b>Expect more updates underway</b>! 🚀</h4>
