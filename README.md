@@ -8,4 +8,4 @@
 
 <br />
 
-<h4 align="center">Xevron is still in pre-alpha. <b>Expect more updates underway</b>! 🚀</h4>
+<h4 align="center">Xevron is still in pre-alpha. <em>Expect more updates underway</em>! 🚀</h4>
