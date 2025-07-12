@@ -5,18 +5,7 @@ import { PiPlaceholderBold } from 'react-icons/pi'
 
 export default function Header() {
   return (
-    <Flex
-      m="4"
-      paddingInline="8"
-      gap="4"
-      fontSize="xl"
-      align="center"
-      flexDir="row"
-      position="sticky"
-      top="4"
-      zIndex="1000"
-      bgColor="black"
-    >
+    <Flex m="4" paddingInline="8" gap="4" fontSize="xl" align="center">
       <Link to="/">
         <Flex flexDir="row" align="center" gap="2">
           <Icon size="lg">
@@ -31,7 +20,7 @@ export default function Header() {
       <Link to="/">
         <Button fontFamily="mono" colorPalette="purple">
           <a href="https://getwaitlist.com/waitlist/30231" target="_blank">
-            Join the Waitlist
+            Sign In
           </a>
         </Button>
       </Link>

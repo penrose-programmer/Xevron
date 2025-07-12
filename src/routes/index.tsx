@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import { Flex, Button, IconButton } from '@chakra-ui/react'
 import { FaGithub } from 'react-icons/fa'
 
@@ -28,9 +28,7 @@ function App() {
 
         <Flex direction="row" gap="4" margin="4">
           <Button fontFamily="mono" colorPalette="purple" size="2xl">
-            <a href="https://getwaitlist.com/waitlist/30231" target="_blank">
-              Join the Waitlist
-            </a>
+            <Link to="/login">Sign In</Link>
           </Button>
           <a
             href="https://github.com/penrose-programmer/xevron"
